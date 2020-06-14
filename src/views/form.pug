@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")/
+        title exel 2.0
+    body
+        div
+            form(method="post" action="/form")
+                div
+                    lavel(for = "id") id
+                    p
+                        input(type="text" placeholder="pone el id" name="id")
+
+
+                div
+                    lavel(for = "titulo") titulo
+                    p
+                        input(type="text" placeholder="pone el titulo" name="titulo")
+
+                div
+                    lavel(for = "imagen") imagen
+                    p
+                        input(type="text" placeholder="pone la imagen" name="imagen")
+
+                div
+                    lavel(for = "descripcion") descripcion
+                    p
+                        input(type="text" placeholder="pone la descripcion" name="descripcion")
+
+                div
+                    lavel(for = "precio") precio
+                    p
+                        input(type="text" placeholder="pone el precio" name="precio")
+
+                button(type="submit") enviar

@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")/
+        title exel 2.0
+    body
+        div
+            ul
+                each dato, index in registros
+                        console.log(dato.imagen)
+                        h3 #{dato.id +"  -  "+ dato.titulo + "  -  " + dato.imagen + "  -  " + dato.descripcion + "  -  " + dato.precio}
+
+            hr
+            p
+            a(href="/form") nuevo
